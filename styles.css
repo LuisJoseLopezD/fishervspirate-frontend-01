@@ -25,9 +25,15 @@
   flex-wrap: wrap;
 }
 
+.background-wood {
+  background-image: url("./img/nav.png");
+  background-size: cover;
+}
+
 .navbar-background {
   background-image: url("./img/fondo-playa.png");
   background-size: cover;
+  margin-left: -10px;
 }
 
 .navbar a {
@@ -45,6 +51,26 @@
     font-size: 1rem;
     padding: 35px 0;
   }
+}
+
+/* header */
+
+.header {
+  padding-bottom: 800px;
+}
+
+.contenedor-imagenes .imagen-01 {
+  margin-left: -180px;
+  margin-top: 20px;
+}
+
+.contenedor-imagenes .imagen-02 {
+  margin-top: -30px;
+}
+
+.contenedor-imagenes .imagen-03 {
+  margin-left: 230px;
+  margin-top: 40px;
 }
 
 /* navbar-hero */
