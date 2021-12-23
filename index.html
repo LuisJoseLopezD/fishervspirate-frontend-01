@@ -1,19 +1,22 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <!-- styles css -->
     <link rel="stylesheet" href="styles.css">
 
     <title>Hello, world!</title>
-  </head>
-  <body>
+</head>
+
+<body>
 
 
     <!-- navbar -->
@@ -26,14 +29,14 @@
             <a href="#roadmap">ROADMAP</a>
         </div>
 
-            <!-- navbar-hero -->
+        <!-- navbar-hero -->
 
         <div class="container navbar-hero justify-content-around">
-          <div class="row">
-            <div class="col-xs-12 col-md-4 col-lg-4 text-center">NFT CONTRACT</div>
-            <div class="col-xs-12 col-md-4 col-lg-4 text-center">TOKEN CONTRACT FVP</div>
-            <div class="col-xs-12 col-md-4 col-lg-4 text-center">TOKEN CONTRACT SC</div>
-          </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-4 col-lg-4 text-center">NFT CONTRACT</div>
+                <div class="col-xs-12 col-md-4 col-lg-4 text-center">TOKEN CONTRACT FVP</div>
+                <div class="col-xs-12 col-md-4 col-lg-4 text-center">TOKEN CONTRACT SC</div>
+            </div>
         </div>
 
     </div>
@@ -42,155 +45,187 @@
     <!-- roadmap -->
 
     <div class="section_5" id="roadmap">
-      <!-- <h2>ROADMAP</h2> -->
-      <div class="modal-roadmap d-none" id="modal-roadmap">
-          <span class="close-btn" onClick={close}>X</span>
-          <div class="q3-2021 d-none" id="q3-2021">
-              <h5>Milestone 1</h5>
-              <ul>
-                  <li><i aria-hidden="true" class="far fa-check-circle"></i> Website</li>
-                  <li><i aria-hidden="true" class="far fa-check-circle"></i> Social Networks</li>
-                  <li><i aria-hidden="true" class="far fa-check-circle"></i> Whitepaper and Roadmap</li>
-              </ul>
-          </div>
-          <div class="q4-2021 d-none" id="q4-2021">
-              <h5>Milestone 2</h5>
-              <ul>
-                  <li><i aria-hidden="true" class="far fa-check-circle"></i>Tokenomics 2.0</li>
-                  <li><i aria-hidden="true" class="far fa-check-circle"></i>Web 2.0</li>
-                  <li><i aria-hidden="true" class="far fa-check-circle"></i>NFT 1 Whitelist</li>
-                  <li><i aria-hidden="true" class="far fa-check-circle"></i>NFT Smart Contract</li>
-                  <li><i aria-hidden="true" class="far fa-check-circle"></i>Prevent NFTs 1</li>
-                  <li><i aria-hidden="true" class="far fa-check-circle"></i>Whitepaper 2D</li>
-                  <li><i aria-hidden="true" class="far fa-check-circle"></i>Audit</li>
-                  <li><i aria-hidden="true" class="far fa-check-circle"></i>Prevent NFTs 2</li>
-                  <li><i aria-hidden="true" class="far fa-clock"></i>Token Whitelist</li>
-                  <li><i aria-hidden="true" class="far fa-check-circle"></i>Smart Contract Token</li>
-                  <li><i aria-hidden="true" class="far fa-clock"></i>Pre-sale token</li>
-                  <li><i aria-hidden="true" class="far fa-check-circle"></i>Aggressive Marketing</li>
-                  <li><i aria-hidden="true" class="far fa-clock"></i>Listed on PancakeSwap</li>
-              </ul>
-          </div>
-          <div class="q1-2022 d-none" id="q1-2022">
-              <h5>Milestone 3</h5>
-              <ul>
-                  <li><i aria-hidden="true" class="far fa-circle"></i>Whitepaper 3D Video Game 1.0</li>
-                  <li><i aria-hidden="true" class="far fa-circle"></i>3D Game Preview Trailer</li>
-                  <li><i aria-hidden="true" class="far fa-circle"></i>Prevent NFTs 3</li>
-                  <li><i aria-hidden="true" class="far fa-circle"></i>Web Farm (play to earn)</li>
-                  <li><i aria-hidden="true" class="far fa-circle"></i>Marketplace</li>
-                  <li><i aria-hidden="true" class="far fa-circle"></i>2D videogame closed alpha</li>
-                  <li><i aria-hidden="true" class="far fa-circle"></i>Beta Game 2D</li>
-              </ul>
-          </div>
-          <div class="q2-2022 d-none" id="q2-2022">
-              <h5>Milestone 4</h5>
-              <ul>
-                  <li><i aria-hidden="true" class="far fa-circle"></i>2D Game release</li>
-              </ul>
-          </div>
-          <div class="q3-2022 d-none" id="q3-2022">
-              <h5>Milestone 5</h5>
-              <ul>
-                  <li><i aria-hidden="true" class="far fa-circle"></i>3D videogame closed alpha</li>
-                  <li><i aria-hidden="true" class="far fa-circle"></i>3D videogame open beta</li>
-                  <li><i aria-hidden="true" class="far fa-circle"></i>3D videogame closed beta</li>
-                  <li><i aria-hidden="true" class="far fa-circle"></i>3D videogame realease</li>
-              </ul>
-          </div>
-      </div>
-      <div class="roadmap">
-          <img src="img/roadmap/roadmap2.png" alt="" loading="lazy"/>
-          <p class="road_1" onClick={open1}>Q3 2021</p>
-          <p class="road_2" onClick={open2}>Q4 2021</p>
-          <p class="road_3" onClick={open3}>Q1 2022</p>
-          <p class="road_4" onClick={open4}>Q2 2022</p>
-          <p class="road_5" onClick={open5}>Q3 2022</p>
-          <p class="road_6">Metaverse</p>
-          <p class="road_7">COMMING SOON</p>
-      </div>
-  </div>
+        <!-- <h2>ROADMAP</h2> -->
+        <div class="modal-roadmap d-none" id="modal-roadmap">
+            <span class="close-btn" onClick={close}>X</span>
+            <div class="q3-2021 d-none" id="q3-2021">
+                <h5>Milestone 1</h5>
+                <ul>
+                    <li><i aria-hidden="true" class="far fa-check-circle"></i> Website</li>
+                    <li><i aria-hidden="true" class="far fa-check-circle"></i> Social Networks</li>
+                    <li><i aria-hidden="true" class="far fa-check-circle"></i> Whitepaper and Roadmap</li>
+                </ul>
+            </div>
+            <div class="q4-2021 d-none" id="q4-2021">
+                <h5>Milestone 2</h5>
+                <ul>
+                    <li><i aria-hidden="true" class="far fa-check-circle"></i>Tokenomics 2.0</li>
+                    <li><i aria-hidden="true" class="far fa-check-circle"></i>Web 2.0</li>
+                    <li><i aria-hidden="true" class="far fa-check-circle"></i>NFT 1 Whitelist</li>
+                    <li><i aria-hidden="true" class="far fa-check-circle"></i>NFT Smart Contract</li>
+                    <li><i aria-hidden="true" class="far fa-check-circle"></i>Prevent NFTs 1</li>
+                    <li><i aria-hidden="true" class="far fa-check-circle"></i>Whitepaper 2D</li>
+                    <li><i aria-hidden="true" class="far fa-check-circle"></i>Audit</li>
+                    <li><i aria-hidden="true" class="far fa-check-circle"></i>Prevent NFTs 2</li>
+                    <li><i aria-hidden="true" class="far fa-clock"></i>Token Whitelist</li>
+                    <li><i aria-hidden="true" class="far fa-check-circle"></i>Smart Contract Token</li>
+                    <li><i aria-hidden="true" class="far fa-clock"></i>Pre-sale token</li>
+                    <li><i aria-hidden="true" class="far fa-check-circle"></i>Aggressive Marketing</li>
+                    <li><i aria-hidden="true" class="far fa-clock"></i>Listed on PancakeSwap</li>
+                </ul>
+            </div>
+            <div class="q1-2022 d-none" id="q1-2022">
+                <h5>Milestone 3</h5>
+                <ul>
+                    <li><i aria-hidden="true" class="far fa-circle"></i>Whitepaper 3D Video Game 1.0</li>
+                    <li><i aria-hidden="true" class="far fa-circle"></i>3D Game Preview Trailer</li>
+                    <li><i aria-hidden="true" class="far fa-circle"></i>Prevent NFTs 3</li>
+                    <li><i aria-hidden="true" class="far fa-circle"></i>Web Farm (play to earn)</li>
+                    <li><i aria-hidden="true" class="far fa-circle"></i>Marketplace</li>
+                    <li><i aria-hidden="true" class="far fa-circle"></i>2D videogame closed alpha</li>
+                    <li><i aria-hidden="true" class="far fa-circle"></i>Beta Game 2D</li>
+                </ul>
+            </div>
+            <div class="q2-2022 d-none" id="q2-2022">
+                <h5>Milestone 4</h5>
+                <ul>
+                    <li><i aria-hidden="true" class="far fa-circle"></i>2D Game release</li>
+                </ul>
+            </div>
+            <div class="q3-2022 d-none" id="q3-2022">
+                <h5>Milestone 5</h5>
+                <ul>
+                    <li><i aria-hidden="true" class="far fa-circle"></i>3D videogame closed alpha</li>
+                    <li><i aria-hidden="true" class="far fa-circle"></i>3D videogame open beta</li>
+                    <li><i aria-hidden="true" class="far fa-circle"></i>3D videogame closed beta</li>
+                    <li><i aria-hidden="true" class="far fa-circle"></i>3D videogame realease</li>
+                </ul>
+            </div>
+        </div>
+        <div class="roadmap">
+            <img src="img/roadmap/roadmap2.png" alt="" loading="lazy" />
+            <p class="road_1" onClick={open1}>Q3 2021</p>
+            <p class="road_2" onClick={open2}>Q4 2021</p>
+            <p class="road_3" onClick={open3}>Q1 2022</p>
+            <p class="road_4" onClick={open4}>Q2 2022</p>
+            <p class="road_5" onClick={open5}>Q3 2022</p>
+            <p class="road_6">Metaverse</p>
+            <p class="road_7">COMMING SOON</p>
+        </div>
+    </div>
 
 
-    <!-- partners -->
+    <div class="fondo-cofre">
 
-    <div class="partners">
-      <h2>PARTNERSHIPS & COLLABORATIONS</h2>
-      <div class="partners-icons">
-          <!-- <img src={partner1} alt="" loading="lazy" class="d-none"/>
+        <!-- partners -->
+
+        <div class="partners">
+            <h2>PARTNERSHIPS & COLLABORATIONS</h2>
+            <div class="partners-icons">
+                <!-- <img src={partner1} alt="" loading="lazy" class="d-none"/>
           <img src={partner2} alt="" loading="lazy" class="d-none"/> -->
-          <a href="https://bscscan.com/" target="_blank" rel="noopener noreferrer" ><img src="img/partners/bscScan.png" alt="" loading="lazy" /></a>
-          <a href="https://unity.com/" target="_blank" rel="noopener noreferrer" ><img src="img/partners/unity.png" alt="" loading="lazy" /></a>
-          <a href="https://app.d-reit.finance/#/launchpad" target="_blank" rel="noopener noreferrer" ><img src="img/partners/d-reit.png" alt="" loading="lazy" /></a>
-          <a href="https://www.monstersadventuresnft.io/" target="_blank" rel="noopener noreferrer" ><img src="img/partners/monster.png" alt="" loading="lazy" /></a>
-          <!-- <img src={partner5} alt="" loading="lazy" class="d-none"/> -->
-      </div>
-  </div>
+                <a href="https://bscscan.com/" target="_blank" rel="noopener noreferrer"><img
+                        src="img/partners/bscScan.png" alt="" loading="lazy" /></a>
+                <a href="https://unity.com/" target="_blank" rel="noopener noreferrer"><img src="img/partners/unity.png"
+                        alt="" loading="lazy" /></a>
+                <a href="https://app.d-reit.finance/#/launchpad" target="_blank" rel="noopener noreferrer"><img
+                        src="img/partners/d-reit.png" alt="" loading="lazy" /></a>
+                <a href="https://www.monstersadventuresnft.io/" target="_blank" rel="noopener noreferrer"><img
+                        src="img/partners/monster.png" alt="" loading="lazy" /></a>
+                <!-- <img src={partner5} alt="" loading="lazy" class="d-none"/> -->
+            </div>
+        </div>
 
 
-    <!-- founders -->
-    
-    <div class="founders">
-      <h2>FOUNDERS</h2>
-      <div class="founders-box">
-          <div class="founder">
-              <img class="rounded-circle" src="img/founders/juan.png" alt="" width="200px" loading="lazy"/>
-              <h3>JUAN VERA</h3>
-              <p><a target="_blank" rel="noopener noreferrer"  href="https://www.linkedin.com/in/juan-vera-/"><img src="img/icons/linkedin.png" alt="" width="50px"/></a></p>
-          </div>
-          <div class="founder">
-              <img class="rounded-circle" src="img/founders/jhon.png" alt="" width="200px" loading="lazy"/>
-              <h3>JHON DELA</h3>
-              <p><a target="_blank" rel="noopener noreferrer"  href="https://www.linkedin.com/in/john-dela/"><img src="img/icons/linkedin.png" alt="" width="50px"/></a></p>
-          </div>
-          <div class="founder">
-              <img class="rounded-circle" src="img/founders/llaneras.png" alt="" width="200px" loading="lazy"/>
-              <h3>PEDRO LLANERAS</h3>
-              <p><a target="_blank" rel="noopener noreferrer"  href="https://www.linkedin.com/in/pedro-llaneras-moya-8735581b4/"><img src="img/icons/linkedin.png" alt="" width="50px"/></a></p>
-          </div>
-      </div>
-  </div>
+        <!-- founders -->
+
+        <div class="founders">
+            <h2>FOUNDERS</h2>
+            <div class="founders-box">
+                <div class="founder">
+                    <img class="rounded-circle" src="img/founders/juan.png" alt="" width="200px" loading="lazy" />
+                    <h3>JUAN VERA</h3>
+                    <p><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/juan-vera-/"><img
+                                src="img/icons/linkedin.png" alt="" width="50px" /></a></p>
+                </div>
+                <div class="founder">
+                    <img class="rounded-circle" src="img/founders/jhon.png" alt="" width="200px" loading="lazy" />
+                    <h3>JHON DELA</h3>
+                    <p><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/john-dela/"><img
+                                src="img/icons/linkedin.png" alt="" width="50px" /></a></p>
+                </div>
+                <div class="founder">
+                    <img class="rounded-circle" src="img/founders/llaneras.png" alt="" width="200px" loading="lazy" />
+                    <h3>PEDRO LLANERAS</h3>
+                    <p><a target="_blank" rel="noopener noreferrer"
+                            href="https://www.linkedin.com/in/pedro-llaneras-moya-8735581b4/"><img
+                                src="img/icons/linkedin.png" alt="" width="50px" /></a></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
 
 
     <!-- footer -->
 
     <div class="footer">
-      <div class="icons_footer">
-          <div class="icons-group">
-              <img src="img/icons/bandera-españa.png" alt="" width="50px"/>
-          </div>
-          <div class="icons-group">
-              <a target="_blank" rel="noopener noreferrer"  href="https://t.me/fishervspirateES"><img src="img/icons/telegram.png" alt="telegram" width="40px" loading="lazy"/></a>
-              <a target="_blank" rel="noopener noreferrer"  href="https://discord.com/invite/S3hYebuzMG"><img src="img/icons/discord.png" alt="telegram" width="40px" loading="lazy"/></a>
-              <a target="_blank" rel="noopener noreferrer"  href="https://medium.com/@fishervspirate"><img src="img/icons/medium.png" alt="telegram" width="40px" loading="lazy"/></a>
-              <a target="_blank" rel="noopener noreferrer"  href="https://twitter.com/fishervspirate"><img src="img/icons/twitter.png" alt="telegram" width="40px" loading="lazy"/></a>
-              <a target="_blank" rel="noopener noreferrer"  href="https://instagram.com/fishervspirate"><img src="img/icons/ig.png" alt="telegram" width="40px" loading="lazy"/></a>
-              <a target="_blank" rel="noopener noreferrer"  href="https://www.facebook.com/fishervspirate"><img src="img/icons/fb.png" alt="telegram" width="40px" loading="lazy"/></a>
-              <a target="_blank" rel="noopener noreferrer"  href="https://www.youtube.com/channel/UC2Jb31flKCxnttMW9yL91Kg"><img src="img/icons/youtube.png" alt="telegram" width="40px" loading="lazy"/></a>
-          </div>
-      </div>
-      <div class="footer_text">
-          <h4><a href="https://fishervspirate.com/privacy-policy">privacy policy </a> <a href="https://fishervspirate.com/cookies-policy"> cookies policy</a></h4>
-          <p>Copyright © 2022 FisherVsPirate</p>
-      </div>
-      <div class="icons_footer">
-          <div class="icons-group">
-          <img src="img/icons/bandera-britanica.png" alt="" width="50px"/>
-          </div>
-          <div class="icons-group">
-              <a target="_blank" rel="noopener noreferrer"  href="https://t.me/fishervspirateEN"><img src="img/icons/telegram.png" alt="telegram" width="40px" loading="lazy"/></a>
-              <a target="_blank" rel="noopener noreferrer"  href="https://discord.com/invite/S3hYebuzMG"><img src="img/icons/discord.png" alt="telegram" width="40px" loading="lazy"/></a>
-              <a target="_blank" rel="noopener noreferrer"  href="https://medium.com/@fishervspirate"><img src="img/icons/medium.png" alt="telegram" width="40px" loading="lazy"/></a>
-              <a target="_blank" rel="noopener noreferrer"  href="https://twitter.com/fishervspirate"><img src="img/icons/twitter.png" alt="telegram" width="40px" loading="lazy"/></a>
-              <a target="_blank" rel="noopener noreferrer"  href="https://instagram.com/fishervspirate"><img src="img/icons/ig.png" alt="telegram" width="40px" loading="lazy"/></a>
-              <a target="_blank" rel="noopener noreferrer"  href="https://www.facebook.com/fishervspirate"><img src="img/icons/fb.png" alt="telegram" width="40px" loading="lazy"/></a>
-              <a target="_blank" rel="noopener noreferrer"  href="https://www.youtube.com/channel/UC2Jb31flKCxnttMW9yL91Kg"><img src="img/icons/youtube.png" alt="telegram" width="40px" loading="lazy"/></a>
-          </div>
-      </div>
-  </div>
+        <div class="icons_footer">
+            <div class="icons-group">
+                <img src="img/icons/bandera-españa.png" alt="" width="50px" />
+            </div>
+            <div class="icons-group">
+                <a target="_blank" rel="noopener noreferrer" href="https://t.me/fishervspirateES"><img
+                        src="img/icons/telegram.png" alt="telegram" width="40px" loading="lazy" /></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://discord.com/invite/S3hYebuzMG"><img
+                        src="img/icons/discord.png" alt="telegram" width="40px" loading="lazy" /></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@fishervspirate"><img
+                        src="img/icons/medium.png" alt="telegram" width="40px" loading="lazy" /></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/fishervspirate"><img
+                        src="img/icons/twitter.png" alt="telegram" width="40px" loading="lazy" /></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/fishervspirate"><img
+                        src="img/icons/ig.png" alt="telegram" width="40px" loading="lazy" /></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/fishervspirate"><img
+                        src="img/icons/fb.png" alt="telegram" width="40px" loading="lazy" /></a>
+                <a target="_blank" rel="noopener noreferrer"
+                    href="https://www.youtube.com/channel/UC2Jb31flKCxnttMW9yL91Kg"><img src="img/icons/youtube.png"
+                        alt="telegram" width="40px" loading="lazy" /></a>
+            </div>
+        </div>
+        <div class="footer_text">
+            <h4><a href="https://fishervspirate.com/privacy-policy">privacy policy </a> <a
+                    href="https://fishervspirate.com/cookies-policy"> cookies policy</a></h4>
+            <p>Copyright © 2022 FisherVsPirate</p>
+        </div>
+        <div class="icons_footer">
+            <div class="icons-group">
+                <img src="img/icons/bandera-britanica.png" alt="" width="50px" />
+            </div>
+            <div class="icons-group">
+                <a target="_blank" rel="noopener noreferrer" href="https://t.me/fishervspirateEN"><img
+                        src="img/icons/telegram.png" alt="telegram" width="40px" loading="lazy" /></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://discord.com/invite/S3hYebuzMG"><img
+                        src="img/icons/discord.png" alt="telegram" width="40px" loading="lazy" /></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@fishervspirate"><img
+                        src="img/icons/medium.png" alt="telegram" width="40px" loading="lazy" /></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/fishervspirate"><img
+                        src="img/icons/twitter.png" alt="telegram" width="40px" loading="lazy" /></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/fishervspirate"><img
+                        src="img/icons/ig.png" alt="telegram" width="40px" loading="lazy" /></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/fishervspirate"><img
+                        src="img/icons/fb.png" alt="telegram" width="40px" loading="lazy" /></a>
+                <a target="_blank" rel="noopener noreferrer"
+                    href="https://www.youtube.com/channel/UC2Jb31flKCxnttMW9yL91Kg"><img src="img/icons/youtube.png"
+                        alt="telegram" width="40px" loading="lazy" /></a>
+            </div>
+        </div>
+    </div>
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>

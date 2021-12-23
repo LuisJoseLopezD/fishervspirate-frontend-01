@@ -223,17 +223,32 @@
   }
 }
 
+
+/* fondo cofre */
+
+.fondo-cofre {
+
+  background-image: url("./img/fondo-cofre.png");
+  background-size: cover;
+  width: 100%;
+  margin-top: -70px;
+
+}
+
+
 /* partners */
 
 .partners h2 {
-  color: black;
+  color: white;
   font-size: 3rem;
   padding-top: 90px;
   font-family: ftv;
+  padding-bottom: 80px;
 }
 
 .partners {
   text-align: center;
+  padding: 60px 0 20px 0;
 }
 
 .partners-icons {
@@ -243,8 +258,8 @@
 }
 
 .partners-icons img {
-  width: 300px;
-  margin: 25px;
+  width: 330px;
+  margin: 20px;
 }
 
 @media (max-width: 760px) {
@@ -256,7 +271,7 @@
 /* founders */
 
 .founders h2 {
-  color: black;
+  color: white;
   font-size: 3.5rem;
   margin: 0;
   margin-bottom: 70px;
@@ -268,10 +283,12 @@
   margin: 30px;
   font-family: ftv;
   overflow: hidden;
+  color: white;
 }
 
 .founders {
   text-align: center;
+  padding: 70px 0 70px 100px;
 }
 
 .founders-box {
