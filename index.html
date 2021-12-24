@@ -69,10 +69,50 @@
         <div class="container navbar-hero justify-content-around">
             <div class="row">
                 <div class="col-xs-12 col-md-4 col-lg-4 text-center background-azul"><span>NFT CONTRACT</span></div>
-                <div class="col-xs-12 col-md-4 col-lg-4 text-center background-azul"><span>TOKEN CONTRACT FVP</span></div>
-                <div class="col-xs-12 col-md-4 col-lg-4 text-center background-azul"><span>TOKEN CONTRACT SC</span></div>
+                <div class="col-xs-12 col-md-4 col-lg-4 text-center background-azul"><span>TOKEN CONTRACT FVP</span>
+                </div>
+                <div class="col-xs-12 col-md-4 col-lg-4 text-center background-azul"><span>TOKEN CONTRACT SC</span>
+                </div>
             </div>
         </div>
+
+    </div>
+
+    <div class="segundo-background">
+
+        <!-- NFT PLAY TO EARN -->
+        <div class="mx-auto d-block letrero-0"><span>NFT PLAY TO EARN</span></div>
+        <div class="container cards-container">
+
+            <div class="row">
+                <div class="card col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center">
+                    <div class="mx-auto d-block letrero-01"><span>CHARACTERS</span></div>
+                    <!-- <img src="img/personajes/grumete.png" alt="" width="80%"loading="lazy"/> -->
+                    <img src="img/personajes/grumete.png" alt="" width="70%" id="character" loading="lazy" />
+                    <img src="img/arrows/left.png" alt="" width="50px" class="left"
+                        onClick={downCharacter}loading="lazy" />
+                    <img src="img/arrows/right.png" alt="" width="50px" class="right"
+                        onClick={addCharacter}loading="lazy" />
+                </div>
+                <div class="card col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center">
+                    <div class="mx-auto d-block letrero-01"><span>SHIPS</span></div>
+                    <!-- <img src={ships} alt="" width="80%" loading="lazy"/> -->
+                    <img src="img/personajes/ship.png" alt="" width="70%" id="character" loading="lazy" />
+                    <img src="img/arrows/left.png" alt="" width="50px" class="left" onClick={downShip}loading="lazy" />
+                    <img src="img/arrows/right.png" alt="" width="50px" class="right" onClick={addShip}loading="lazy" />
+                </div>
+                <div class="card col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center">
+                    <div class="mx-auto d-block letrero-01"><span>PORT / ISLAND</span></div>
+                    <!-- <img src={port} alt="" width="80%" loading="lazy"/> -->
+                    <img src="img/personajes/island.png" alt="" width="70%" id="character" loading="lazy" />
+                    <img src="img/arrows/left.png" alt="" width="50px" class="left" onClick={downPort} loading="lazy" />
+                    <img src="img/arrows/right.png" alt="" width="50px" class="right" onClick={addPort}
+                        loading="lazy" />
+                </div>
+
+            </div>
+        </div>
+
 
     </div>
 
@@ -80,63 +120,6 @@
     <!-- roadmap -->
 
     <div class="section_5" id="roadmap">
-        <!-- <h2>ROADMAP</h2> -->
-        <div class="modal-roadmap d-none" id="modal-roadmap">
-            <span class="close-btn" onClick={close}>X</span>
-            <div class="q3-2021 d-none" id="q3-2021">
-                <h5>Milestone 1</h5>
-                <ul>
-                    <li><i aria-hidden="true" class="far fa-check-circle"></i> Website</li>
-                    <li><i aria-hidden="true" class="far fa-check-circle"></i> Social Networks</li>
-                    <li><i aria-hidden="true" class="far fa-check-circle"></i> Whitepaper and Roadmap</li>
-                </ul>
-            </div>
-            <div class="q4-2021 d-none" id="q4-2021">
-                <h5>Milestone 2</h5>
-                <ul>
-                    <li><i aria-hidden="true" class="far fa-check-circle"></i>Tokenomics 2.0</li>
-                    <li><i aria-hidden="true" class="far fa-check-circle"></i>Web 2.0</li>
-                    <li><i aria-hidden="true" class="far fa-check-circle"></i>NFT 1 Whitelist</li>
-                    <li><i aria-hidden="true" class="far fa-check-circle"></i>NFT Smart Contract</li>
-                    <li><i aria-hidden="true" class="far fa-check-circle"></i>Prevent NFTs 1</li>
-                    <li><i aria-hidden="true" class="far fa-check-circle"></i>Whitepaper 2D</li>
-                    <li><i aria-hidden="true" class="far fa-check-circle"></i>Audit</li>
-                    <li><i aria-hidden="true" class="far fa-check-circle"></i>Prevent NFTs 2</li>
-                    <li><i aria-hidden="true" class="far fa-clock"></i>Token Whitelist</li>
-                    <li><i aria-hidden="true" class="far fa-check-circle"></i>Smart Contract Token</li>
-                    <li><i aria-hidden="true" class="far fa-clock"></i>Pre-sale token</li>
-                    <li><i aria-hidden="true" class="far fa-check-circle"></i>Aggressive Marketing</li>
-                    <li><i aria-hidden="true" class="far fa-clock"></i>Listed on PancakeSwap</li>
-                </ul>
-            </div>
-            <div class="q1-2022 d-none" id="q1-2022">
-                <h5>Milestone 3</h5>
-                <ul>
-                    <li><i aria-hidden="true" class="far fa-circle"></i>Whitepaper 3D Video Game 1.0</li>
-                    <li><i aria-hidden="true" class="far fa-circle"></i>3D Game Preview Trailer</li>
-                    <li><i aria-hidden="true" class="far fa-circle"></i>Prevent NFTs 3</li>
-                    <li><i aria-hidden="true" class="far fa-circle"></i>Web Farm (play to earn)</li>
-                    <li><i aria-hidden="true" class="far fa-circle"></i>Marketplace</li>
-                    <li><i aria-hidden="true" class="far fa-circle"></i>2D videogame closed alpha</li>
-                    <li><i aria-hidden="true" class="far fa-circle"></i>Beta Game 2D</li>
-                </ul>
-            </div>
-            <div class="q2-2022 d-none" id="q2-2022">
-                <h5>Milestone 4</h5>
-                <ul>
-                    <li><i aria-hidden="true" class="far fa-circle"></i>2D Game release</li>
-                </ul>
-            </div>
-            <div class="q3-2022 d-none" id="q3-2022">
-                <h5>Milestone 5</h5>
-                <ul>
-                    <li><i aria-hidden="true" class="far fa-circle"></i>3D videogame closed alpha</li>
-                    <li><i aria-hidden="true" class="far fa-circle"></i>3D videogame open beta</li>
-                    <li><i aria-hidden="true" class="far fa-circle"></i>3D videogame closed beta</li>
-                    <li><i aria-hidden="true" class="far fa-circle"></i>3D videogame realease</li>
-                </ul>
-            </div>
-        </div>
         <div class="roadmap">
             <img src="img/roadmap/roadmap2.png" alt="" loading="lazy" />
             <p class="road_1" onClick={open1}>Q3 2021</p>
