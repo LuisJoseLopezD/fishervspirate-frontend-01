@@ -84,6 +84,15 @@
   }
 }
 
+@media (min-width: 1280px) {
+  .navbar-background {
+    background-image: url("./img/fondo-playa.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -20px;
+  }
+}
+
 /* header */
 
 .header {
@@ -167,7 +176,7 @@
 
 .grupo2 {
   margin-top: -380px;
-  margin-left: -100px;
+  margin-left: -460px !important;
 }
 
 .contenedor-imagenes .imagen-01 {
@@ -189,7 +198,7 @@
 
 }
 
-@media (min-width: 768px) {
+@media (max-width: 1024px) {
   
   .grupo1 {
     margin-left: -60px;
@@ -205,7 +214,10 @@
     width: 280px;
   }
 
-  
+  .contenedor-imagenes .imagen-03 {
+    width: 330px;
+  }
+
   }
 
 
@@ -216,6 +228,18 @@
   font-family: geomanist;
   font-size: 200%;
   flex-wrap: wrap;
+  color: white;
+}
+
+.background-azul {
+  background-image: url("./img/fondos-azules/01.png");
+  background-size: cover;
+  height: 70px;
+}
+
+.navbar-hero .background-azul span {
+  margin-top: 15px;
+  display: block;
 }
 
 @media (max-width: 760px) {
@@ -224,6 +248,7 @@
     padding: 35px 0;
   }
 }
+
 
 /* roadmap */
 
