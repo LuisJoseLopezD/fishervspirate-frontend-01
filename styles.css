@@ -258,19 +258,31 @@
   color: white;
   text-align: center;
   font-size: 3.5rem;
-  padding: 150px;
+  padding: 100px 0px 100px 0;
 }
 
 .letrero-0 {
   background-image: url("./img/letreros/letrero-00.png");
   background-size: contain;
   background-repeat: no-repeat;
+  margin-top: 150px;
+  margin-bottom: 60px;
 }
 
-.letrero-0 span {
+@media(min-width:1600px){
+  .letrero-0 {
+    background-image: url("./img/letreros/letrero-00.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 150px;
+    margin-bottom: 80px;
+  }
+}
+
+/* .letrero-0 span {
   margin-top: -70px;
   display: block;
-}
+} */
 
 .cards-container{
   display: flex;
