@@ -356,12 +356,25 @@
   margin-top: -50px;
   position:relative;
   z-index: -1;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 1440px) {
+  .segundo-background {
+    margin-bottom: 80px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .segundo-background {
+    margin-bottom: 130px;
+  }
 }
 
 /* seccion-cofre */
 
 .seccion-cofre {
-  padding: 200px 50px 100px 50px;
+  padding: 100px 50px 100px 50px;
 }
 
 .seccion-cofre h2 {
@@ -403,7 +416,7 @@
 }
 
 .col-xs-12.col-md-12.col-lg-12.text-center.texto-4-lineas {
-  padding: 10px 220px 10px 220px;
+  padding: 10px 20px 10px 20px;
 }
 
 .col-xs-12.col-md-12.col-lg-12.text-center.yewllow-button {
@@ -438,13 +451,16 @@
 
 .roadmap {
   overflow: hidden;
+  margin-top: -200px;
 }
 
 .roadmap img {
-  width: 104%;
+  width: 107%;
   background-size: cover;
   transform: rotate(-2deg);
-  margin-left: -25px;
+  margin-left: -37px;
+  position:absolute;
+  z-index: 1;
 }
 
 .roadmap p {
@@ -453,14 +469,6 @@
   color: #2858a5;
   font-size: 2rem;
 }
-
-.roadmap {
-  position: relative;
-}
-
-/* .roadmap img{
-    margin-left: -20px;
-} */
 
 .road_1 {
   top: 0;
@@ -556,10 +564,6 @@
     font-size: 2rem;
     margin-bottom: 18px;
   }
-  /* .roadmap img{
-        margin-left: -45px;
-        margin-top: 0;
-    } */
 
   .road_1 {
     top: -20px;
@@ -598,12 +602,22 @@
 /* fondo cofre */
 
 .fondo-cofre {
-
   background-image: url("./img/fondo-cofre.png");
   background-size: cover;
   width: 100%;
-  margin-top: -70px;
+  margin-top: 490px;
+}
 
+@media (min-width: 1280px) {
+  .fondo-cofre {
+    margin-top: 430px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .fondo-cofre {
+    margin-top: 580px;
+  }
 }
 
 
