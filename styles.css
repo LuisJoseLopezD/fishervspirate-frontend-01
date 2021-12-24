@@ -34,7 +34,7 @@
 @media (min-width: 1280px) {
   .background-wood {
     background-image: url("./img/nav.png");
-    background-size: contain;
+    /* background-size: contain; */
     background-repeat: no-repeat;
     padding-top: -50px;
     margin-left: 20px;
@@ -55,7 +55,7 @@
   background-image: url("./img/fondo-playa.png");
   background-size: contain;
   background-repeat: no-repeat;
-  margin-left: -20px;
+
 }
 
 .navbar a {
@@ -86,17 +86,17 @@
 
 @media (min-width: 1280px) {
   .navbar-background {
-    background-image: url("./img/fondo-playa.png");
+    background-image: url("./img/fondo-playa.png") center center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-left: -20px;
+    width: 100%;
   }
 }
 
 /* header */
 
 .header {
-  padding-bottom: 800px;
+  padding-bottom: 500px;
   margin-top: 20px;
   margin-left: 150px;
 }
@@ -341,7 +341,7 @@
   background-image: url("./img/fondo-10.png");
   background-size: cover;
   background-repeat: no-repeat;
-  margin-top: -70px;
+  margin-top: -50px;
   position:relative;
   z-index: -1;
 }
