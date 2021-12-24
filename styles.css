@@ -28,12 +28,34 @@
 .background-wood {
   background-image: url("./img/nav.png");
   background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 1280px) {
+  .background-wood {
+    background-image: url("./img/nav.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: -50px;
+    margin-left: 20px;
+  }
+
+  .navbar {
+    margin-top: -20px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .background-wood {
+    margin-left: 60px;
+  }
 }
 
 .navbar-background {
   background-image: url("./img/fondo-playa.png");
-  background-size: cover;
-  margin-left: -10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: -20px;
 }
 
 .navbar a {
@@ -53,10 +75,47 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .navbar-background {
+    background-image: url("./img/fondo-playa.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: -20px;
+  }
+}
+
 /* header */
 
 .header {
   padding-bottom: 800px;
+  margin-top: 20px;
+  margin-left: 150px;
+}
+
+.grupo1 {
+  margin-left: -60px;
+}
+
+.contenedor-imagenes-2 .imagen-001 {
+  margin-left: -180px;
+  margin-top: 40px;
+}
+
+.contenedor-imagenes-2 .imagen-002 {
+  padding-top: -200px;
+  z-index: 1;
+  margin-top: 150px;
+}
+
+.contenedor-imagenes-2 .imagen-003 {
+  margin-left: 230px;
+  margin-top: 80px;
+}
+
+.grupo2 {
+  margin-top: 150px;
+  margin-right: -170px;
+  margin-left: 70px;
 }
 
 .contenedor-imagenes .imagen-01 {
@@ -72,6 +131,83 @@
   margin-left: 230px;
   margin-top: 40px;
 }
+
+@media (min-width: 1600px) {
+  .header {
+    margin-left: 250px;
+  }
+}
+
+@media (max-width: 414px) {
+
+.header {
+  margin-top: 100px;
+}  
+
+.grupo1 {
+  margin-left: -60px;
+  margin-top: 300px;
+}
+
+.contenedor-imagenes-2 .imagen-001 {
+ width: 270px;
+ margin-left: -100px;
+ margin-top: 90px;
+}
+
+.contenedor-imagenes-2 .imagen-002 {
+  width: 200px;
+  margin-top: 250px;
+}
+
+.contenedor-imagenes-2 .imagen-003 {
+  width: 250px;
+  margin-left: 100px;
+}
+
+.grupo2 {
+  margin-top: -380px;
+  margin-left: -100px;
+}
+
+.contenedor-imagenes .imagen-01 {
+  width: 310px;
+  margin-left: -60px;
+  margin-top: -30px;
+}
+
+.contenedor-imagenes .imagen-02 {
+  width: 310px;
+  margin-left: 20px;
+}
+
+.contenedor-imagenes .imagen-03 {
+  width: 310px;
+  margin-left: 80px;
+  margin-top: 40px;
+}
+
+}
+
+@media (min-width: 768px) {
+  
+  .grupo1 {
+    margin-left: -60px;
+    margin-top: 350px;
+  }
+
+  .grupo2 {
+    margin-top: -20px;
+    margin-left: -240px;
+  }
+
+  .contenedor-imagenes .imagen-01 {
+    width: 280px;
+  }
+
+  
+  }
+
 
 /* navbar-hero */
 
