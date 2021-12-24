@@ -346,6 +346,42 @@
   z-index: -1;
 }
 
+/* whitepaper */
+
+.whitepaper {
+  padding: 200px 50px 200px 50px;
+}
+
+.whitepaper h2 {
+  overflow: hidden;
+  color: white;
+  font-size: 60px;
+}
+
+.myButton {
+	box-shadow: 0px 6px 0px 0px #203393;
+	background:linear-gradient(to bottom, #43c50b 5%, #7bf501 100%);
+	background-color:#43c50b;
+	border-radius:16px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#21420d;
+	font-size:55px;
+	padding:1px 31px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #2f6627;
+  margin-top: 10px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #7bf501 5%, #43c50b 100%);
+	background-color:#7bf501;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
 
 /* roadmap */
 
