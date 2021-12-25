@@ -834,7 +834,7 @@ h4 {
 
 /* RESPONSIVE MOVIL */
 
-@media (max-width: 414px) {
+@media (max-width: 720px) {
   .contenedor-imagenes .imagen-03 {
     width: 204px;
     margin-left: 138px;
@@ -988,5 +988,12 @@ html, body {
 body {
   position: relative;
 }
+
+}
+
+
+/* RESPONSIVE DESKTOP */
+
+@media (min-width: 1280px) {
 
 }
