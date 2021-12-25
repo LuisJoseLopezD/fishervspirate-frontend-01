@@ -2,6 +2,11 @@
   font-family: geomanist;
 }
 
+:root {
+  touch-action: pan-x pan-y;
+  height: 100% 
+}
+
 html, body {
   overflow-x: hidden;
 }
