@@ -12,6 +12,7 @@ html, body {
 }
 body {
   position: relative;
+  cursor: default;
 }
 
 h1,
@@ -19,6 +20,10 @@ h2,
 h3,
 h4 {
   overflow: hidden;
+}
+
+a {
+  cursor: pointer !important;
 }
 
 /* fonts */
@@ -567,15 +572,55 @@ h4 {
 
 .roadmap p {
   position: absolute;
-  font-family: Brabary;
   color: #2858a5;
-  font-size: 2rem;
+  font-size: 50px;
+  z-index: 10000;
 }
 
 .road_1 {
-  top: 0;
-  left: 37%;
+  margin-top: 210px;
+  margin-left: 450px;
 }
+
+.road_2 {
+  margin-top: 380px;
+  margin-left: 130px;
+}
+
+.road_2 {
+  margin-top: 380px;
+  margin-left: 130px;
+}
+
+.road_3 {
+  margin-top: 440px;
+  margin-left: 310px;
+  transform: rotate(-15deg);
+}
+
+.road_4 {
+  margin-top: 490px;
+  margin-left: 590px;
+}
+
+.road_5 {
+  margin-top: 540px;
+  margin-left: 960px;
+}
+
+.road_6 {
+  margin-top: 350px;
+  margin-left: 960px;
+}
+
+.road_7 {
+  margin-top: 180px;
+  margin-left: 900px;
+  font-size: 45px !important;
+}
+
+
+/*
 .road_2 {
   top: 51%;
   left: 15%;
@@ -602,46 +647,13 @@ h4 {
 .road_7 {
   top: 25%;
   left: 80%;
-}
-.modal-roadmap span {
-  float: right;
-  color: silver;
-  margin-top: -25px;
-  margin-right: -25px;
-}
-.modal-roadmap h5 {
-  color: #ca2228;
-  font-size: 2rem;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-.modal-roadmap li {
-  color: white;
-  font-size: 1.5rem;
-  margin-bottom: 7px;
-  list-style: none;
-}
-.modal-roadmap {
-  position: fixed;
-  padding: 55px;
-  z-index: 28;
-  background: #061466;
-  top: 15%;
-  left: 30%;
-  border-radius: 30px;
-  text-align: justify;
-  font-size: 2rem;
-  max-height: 300px;
-  overflow-y: scroll;
-}
-.close-btn:hover {
-  cursor: pointer;
-}
+} */
+
 .roadmap p:hover {
   cursor: pointer;
   color: #ca2228;
 }
-@media (max-width: 760px) {
+/* @media (max-width: 760px) {
   .roadmap p {
     font-size: 1rem;
   }
@@ -698,7 +710,7 @@ h4 {
     top: 7%;
     left: 81%;
   }
-}
+} */
 
 /* fondo cofre */
 
