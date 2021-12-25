@@ -864,7 +864,7 @@ h4 {
   .contenedor-imagenes-2 .imagen-002 {
     width: 250px;
     margin-top: 274px;
-    margin-left: -30px;
+    margin-left: -35px;
 }
 
 .textos-pergamino {
@@ -884,11 +884,12 @@ h4 {
 .button4 {
   font-size: 24px;
   padding: 12px 10px 12px 10px;
+  margin-top: 3px;
 }
 
 .textos-pergamino .titles {
   z-index: 1000;
-  margin-left: 8px;
+  margin-left: 4px;
   position: relative;
   line-height: 31px;
 
