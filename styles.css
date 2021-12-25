@@ -1059,3 +1059,56 @@ body {
 }
 
 }
+
+@media (min-width: 1280px)  {
+
+  .navbar img {
+    margin-top: -20px;
+  }
+
+  .navbar a {
+    margin-top: -30px;
+  }
+
+  .button3 {
+    font-size: 34px;
+    padding: 12px 42px 12px 42px;
+    margin-bottom: 15px;
+}
+
+.header {
+  padding-bottom: 180px;
+}
+
+.navbar-background {
+  background-image: url(./img/fondo-playa.png) center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 20px;
+}
+
+.fondo-cofre {
+  margin-top: 600px;
+}
+
+}
+
+@media (min-width: 1440px)  {
+
+.fondo-cofre {
+  margin-top: 670px;
+}
+
+.navbar a {
+  margin-top: -20px;
+}
+
+}
+
+@media (min-width: 1600px)  {
+
+  .fondo-cofre {
+    margin-top: 780px;
+  }
+  
+  }
