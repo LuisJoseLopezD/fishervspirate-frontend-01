@@ -2,12 +2,11 @@
   font-family: geomanist;
 }
 
-body {
+html, body {
   overflow-x: hidden;
 }
-
-img {
-  overflow-x: hidden !important;
+body {
+  position: relative;
 }
 
 h1,
