@@ -922,7 +922,6 @@ h4 {
   margin-top: 20px;
 }
 
-
 .segundo-background {
   margin-top: -234px;
 }
@@ -995,4 +994,68 @@ body {
 
 /* RESPONSIVE DESKTOP */
 
-@media (min-width: 1280px) {}
+@media only screen and (max-width: 1024px) and (min-width: 768px)  {
+
+  .button3 {
+    font-size: 34px;
+    padding: 12px 40px 12px 40px;
+}
+
+.navbar-hero {
+  padding: 35px 0px 181px;
+  font-family: geomanist;
+  font-size: 22px;
+  flex-wrap: wrap;
+  color: white;
+  margin-bottom: -130px;
+
+}
+
+.background-azul {
+  height: 60px;
+}
+
+.seccion-cofre h2 {
+  font-size: 42px;
+}
+
+.myButton {
+  font-size: 35px;
+}
+
+.seccion-cofre img {
+  width: 350px;
+}
+
+.logo-letrero-boton img {
+  width: 600px;
+  margin-left: -20px;
+  margin-top: -30px;
+}
+
+.segundo-background {
+  background-size: cover;
+  margin-bottom: -100px;
+}
+
+.segundo-background {
+  background-size: cover;
+  padding-bottom: 678px;
+}
+
+.roadmap img {
+  margin-top: -600px;
+}
+
+.fondo-cofre {
+  background-image: url(./img/fondo-cofre.png);
+  background-size: cover;
+  width: 100%;
+  margin-top: -256px;
+}
+
+.partners {
+  padding: 200px 0 20px 0;
+}
+
+}
