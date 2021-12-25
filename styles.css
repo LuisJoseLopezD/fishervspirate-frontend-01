@@ -2,6 +2,14 @@
   font-family: geomanist;
 }
 
+body {
+  overflow-x: hidden;
+}
+
+img {
+  overflow-x: hidden !important;
+}
+
 h1,
 h2,
 h3,
@@ -40,7 +48,7 @@ h4 {
 @media (min-width: 1280px) {
   .background-wood {
     background-image: url("./img/nav.png");
-    /* background-size: contain; */
+    background-size: contain;
     background-repeat: no-repeat;
     padding-top: -50px;
     margin-left: 20px;
@@ -129,6 +137,7 @@ h4 {
   margin-top: 150px;
   margin-right: -170px;
   margin-left: 70px;
+  overflow-x: hidden;
 }
 
 .contenedor-imagenes .imagen-01 {
@@ -297,6 +306,7 @@ h4 {
   flex-wrap: wrap;
   color: white;
   margin-bottom: 120px;
+  overflow-x: hidden;
 }
 
 .background-azul {
@@ -325,6 +335,7 @@ h4 {
   text-align: center;
   font-size: 3.5rem;
   padding: 100px 0px 100px 0;
+  overflow-x: hidden;
 }
 
 .letrero-0 {
@@ -333,6 +344,7 @@ h4 {
   background-repeat: no-repeat;
   margin-top: 150px;
   margin-bottom: 60px;
+  overflow-x: hidden;
 }
 
 @media (min-width: 1600px) {
@@ -354,6 +366,7 @@ h4 {
   display: flex;
   flex-flow: wrap;
   justify-content: space-between;
+  overflow-x: hidden;
 }
 
 .card {
@@ -406,6 +419,7 @@ h4 {
   background-size: cover;
   width: 180px;
   height: 60px;
+  overflow-x: hidden;
 }
 
 .letrero-01 span {
@@ -413,6 +427,7 @@ h4 {
   display: block;
   font-size: 25px;
   color: #6d3216;
+  overflow-x: hidden;
 }
 
 .segundo-background {
@@ -423,6 +438,7 @@ h4 {
   position: relative;
   z-index: -1;
   margin-bottom: 30px;
+  overflow-x: hidden;
 }
 
 @media (min-width: 1440px) {
@@ -735,7 +751,7 @@ h4 {
 
 .founders {
   text-align: center;
-  padding: 70px 0 70px 100px;
+  padding: 70px 0 70px 0px;
 }
 
 .founders-box {
@@ -836,7 +852,7 @@ h4 {
 
   .contenedor-imagenes-2 .imagen-003 {
     width: 195px;
-    margin-left: 117px;
+    margin-left: 90px;
     transform: rotate(-10deg);
     margin-top: 117px;
   }
@@ -858,7 +874,7 @@ h4 {
 
 .button3 {
   font-size: 24px;
-  padding: 12px 35px 12px 35px;
+  padding: 12px 21px 12px 21px;
 }
 
 .button4 {
@@ -884,6 +900,12 @@ h4 {
 
 .header {
   padding-bottom: 300px;
+  margin-left: 0;
+  padding-left: 175px;
+}
+
+.grupo2 {
+  margin-left: -305px !important;
 }
 
 .navbar-hero {
@@ -913,7 +935,7 @@ h4 {
 }
 
 .seccion-cofre {
-  padding: 100px 00px 100px 0px;
+    padding: 50px 00px 100px 0px;
 }
 
 .myButton {
@@ -928,15 +950,39 @@ h4 {
 .logo-letrero-boton img {
   width: 400px;
   margin-left: -20px;
+  margin-top: -30px;
 }
 
 .myButton2 {
   font-size: 35px;
 }
 
+.background-azul {
+  background-image: url(./img/fondos-azules/01.png);
+  background-size: contain;
+  height: 70px;
+  background-repeat: no-repeat;
+  margin-left: 20px;
+}
+
 .segundo-background {
   background-size: auto;
   margin-bottom: 74px;
+}
+
+.fondo-cofre {
+  margin-top: 126px;
+}
+
+.roadmap img {
+  margin-left: -19px;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative;
 }
 
 }
