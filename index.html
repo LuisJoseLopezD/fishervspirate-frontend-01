@@ -193,15 +193,102 @@
     <div class="section_5" id="roadmap">
         <div class="roadmap">
             <img src="img/roadmap/roadmap4.png" alt="" loading="lazy" />
-            <p class="road_1" onClick={open1}>Q3 2021</p>
+            <button id="myBtn"><p class="road_1" onClick={open1}>Q3 2021</p></button>
             <p class="road_2" onClick={open2}>Q4 2021</p>
             <p class="road_3" onClick={open3}>Q1 2022</p>
             <p class="road_4" onClick={open4}>Q2 2022</p>
             <p class="road_5" onClick={open5}>Q3 2022</p>
-            <p class="road_6" onClick={open2}>Q4 2021</p>
-            <p class="road_7" onClick={open2}>COMMING SOON</p>
+            <p class="road_6">Metaverse</p>
+            <p class="road_7">COMMING SOON</p>
         </div>
     </div>
+
+        <!-- modal en cada punto -->
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h5>Milestone 1</h5>
+    <ul>
+        <li><i aria-hidden="true" className="far fa-check-circle"></i>Website</li>
+        <li><i aria-hidden="true" className="far fa-check-circle"></i>Social Networks</li>
+        <li><i aria-hidden="true" className="far fa-check-circle"></i>Whitepaper and Roadmap</li>
+    </ul>
+  </div>
+
+</div>
+
+
+  <style>
+      .modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+  </style>
+
+        <script>
+            // Get the modal
+            var modal = document.getElementById("myModal");
+            
+            // Get the button that opens the modal
+            var btn = document.getElementById("myBtn");
+            
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+            
+            // When the user clicks the button, open the modal 
+            btn.onclick = function() {
+              modal.style.display = "block";
+            }
+            
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+              modal.style.display = "none";
+            }
+            
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+              if (event.target == modal) {
+                modal.style.display = "none";
+              }
+            }
+            </script>
 
 
     <div class="fondo-cofre">

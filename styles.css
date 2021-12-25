@@ -574,7 +574,7 @@ a {
   position: absolute;
   color: #cda165;
   font-size: 50px;
-  z-index: 10000;
+  z-index: 1;
 }
 
 .road_1 {
@@ -610,12 +610,12 @@ a {
 
 .road_6 {
   margin-top: 350px;
-  margin-left: 960px;
+  margin-left: 940px;
 }
 
 .road_7 {
   margin-top: 180px;
-  margin-left: 900px;
+  margin-left: 830px;
   font-size: 45px !important;
 }
 
@@ -711,6 +711,7 @@ a {
     left: 81%;
   }
 } */
+
 
 /* fondo cofre */
 
