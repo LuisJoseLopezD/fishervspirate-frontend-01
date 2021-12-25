@@ -1,5 +1,5 @@
 * {
-  font-family: geomanist;
+  font-family: ftv;
 }
 
 :root {
@@ -21,7 +21,7 @@ h4 {
   overflow: hidden;
 }
 
-/* fuentes */
+/* fonts */
 
 @font-face {
   font-family: "ftv";
@@ -317,6 +317,7 @@ h4 {
   background-image: url("./img/fondos-azules/01.png");
   background-size: cover;
   height: 70px;
+  pointer-events: none;
 }
 
 .navbar-hero .background-azul span {
@@ -333,6 +334,11 @@ h4 {
 
 /* NFT play to earn */
 
+#harbour {
+  font-size: 19px;
+  margin-top: 12px;
+}
+
 .letrero-0 {
   margin: 0;
   color: white;
@@ -340,6 +346,7 @@ h4 {
   font-size: 3.5rem;
   padding: 100px 0px 100px 0;
   overflow-x: hidden;
+  pointer-events: none;
 }
 
 .letrero-0 {
@@ -424,6 +431,7 @@ h4 {
   width: 180px;
   height: 60px;
   overflow-x: hidden;
+  cursor: pointer !important;
 }
 
 .letrero-01 span {
@@ -432,6 +440,7 @@ h4 {
   font-size: 25px;
   color: #6d3216;
   overflow-x: hidden;
+  cursor: pointer !important;
 }
 
 .segundo-background {
@@ -443,6 +452,7 @@ h4 {
   z-index: -1;
   margin-bottom: 30px;
   overflow-x: hidden;
+  pointer-events: none;
 }
 
 @media (min-width: 1440px) {
@@ -801,6 +811,11 @@ h4 {
   font-weight: 400;
   overflow: hidden;
   padding: 5px;
+  font-family: geomanist;
+}
+
+.footer_text p {
+  font-family: geomanist;
 }
 
 .footer img {
@@ -927,6 +942,7 @@ h4 {
 }
 
 .letrero-0 {
+  background-image: url(./img/letreros/letrero-NFT-small.png);
   margin-bottom: -70px;
 }
 
@@ -992,7 +1008,7 @@ body {
 }
 
 
-/* RESPONSIVE DESKTOP */
+/* RESPONSIVE TABLET */
 
 @media only screen and (max-width: 1024px) and (min-width: 768px)  {
 
@@ -1059,6 +1075,9 @@ body {
 }
 
 }
+
+
+/* RESPONSIVE DESKTOP */
 
 @media (min-width: 1280px)  {
 

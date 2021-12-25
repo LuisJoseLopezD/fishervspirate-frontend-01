@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
     <!-- Required meta tags -->
     
     <meta charset="utf-8">
@@ -108,7 +109,7 @@
 
             <div class="row">
                 <div class="card col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center">
-                    <div class="mx-auto d-block letrero-01"><span>CHARACTERS</span></div>
+                    <div class="mx-auto d-block letrero-01" id="btn-cursor"><span>CHARACTERS</span></div>
                     <!-- <img src="img/personajes/grumete.png" alt="" width="80%"loading="lazy"/> -->
                     <img src="img/personajes/grumete.png" alt="" width="70%" id="character" loading="lazy" />
                     <img src="img/arrows/left.png" alt="" width="50px" class="left"
@@ -124,7 +125,7 @@
                     <img src="img/arrows/right.png" alt="" width="50px" class="right" onClick={addShip}loading="lazy" />
                 </div>
                 <div class="card col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center">
-                    <div class="mx-auto d-block letrero-01"><span>PORT / ISLAND</span></div>
+                    <div class="mx-auto d-block letrero-01"><span id="harbour">HARBOUR/ISLAND</span></div>
                     <!-- <img src={port} alt="" width="80%" loading="lazy"/> -->
                     <img src="img/personajes/island.png" alt="" width="70%" id="character" loading="lazy" />
                     <img src="img/arrows/left.png" alt="" width="50px" class="left" onClick={downPort} loading="lazy" />
