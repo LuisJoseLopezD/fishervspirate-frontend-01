@@ -587,11 +587,6 @@ a {
   margin-left: 130px;
 }
 
-.road_2 {
-  margin-top: 380px;
-  margin-left: 130px;
-}
-
 .road_3 {
   margin-top: 450px;
   margin-left: 280px;
@@ -617,42 +612,101 @@ a {
   margin-top: 180px;
   margin-left: 830px;
   font-size: 45px !important;
+  transform: rotate(-7deg);
 }
-
-
-/*
-.road_2 {
-  top: 51%;
-  left: 15%;
-}
-
-.road_3 {
-  top: 51%;
-  left: 42%;
-}
-.road_4 {
-  top: 90%;
-  left: 48%;
-}
-
-.road_5 {
-  top: 85%;
-  left: 74%;
-}
-
-.road_6 {
-  top: 53%;
-  left: 74%;
-}
-.road_7 {
-  top: 25%;
-  left: 80%;
-} */
 
 .roadmap p:hover {
   cursor: pointer;
-  color: #ca2228;
+  color: white;
 }
+
+
+@media (min-width: 1440px) {
+
+  .road_1 {
+    margin-top: 230px;
+    margin-left: 520px;
+  }
+  
+  .road_2 {
+    margin-top: 420px;
+    margin-left: 180px;
+  }
+  
+  .road_3 {
+    margin-top: 510px;
+    margin-left: 320px;
+    transform: rotate(-15deg);
+  }
+  
+  .road_4 {
+    margin-top: 580px;
+    margin-left: 650px;
+  }
+  
+  .road_5 {
+    margin-top: 620px;
+    margin-left: 1090px;
+  }
+  
+  .road_6 {
+    margin-top: 400px;
+    margin-left: 1080px;
+  }
+  
+  .road_7 {
+    margin-top: 210px;
+    margin-left: 930px;
+    font-size: 45px !important;
+    transform: rotate(-7deg);
+  }
+
+}
+
+@media (min-width: 1600px) {
+
+  .road_1 {
+    margin-top: 270px;
+    margin-left: 570px;
+  }
+  
+  .road_2 {
+    margin-top: 480px;
+    margin-left: 190px;
+  }
+  
+  .road_3 {
+    margin-top: 570px;
+    margin-left: 380px;
+    transform: rotate(-15deg);
+  }
+  
+  .road_4 {
+    margin-top: 640px;
+    margin-left: 750px;
+  }
+  
+  .road_5 {
+    margin-top: 670px;
+    margin-left: 1230px;
+  }
+  
+  .road_6 {
+    margin-top: 500px;
+    margin-left: 1230px;
+    font-size: 55px !important;
+  }
+  
+  .road_7 {
+    margin-top: 250px;
+    margin-left: 990px;
+    font-size: 55px !important;
+    transform: rotate(-7deg);
+  }
+
+}
+
+
 /* @media (max-width: 760px) {
   .roadmap p {
     font-size: 1rem;
