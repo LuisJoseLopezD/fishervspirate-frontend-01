@@ -343,6 +343,10 @@ a {
 
 /* NFT play to earn */
 
+#arrow-green {
+  cursor:pointer;
+}
+
 #harbour {
   font-size: 19px;
   margin-top: 12px;
@@ -365,7 +369,7 @@ a {
   margin-top: 150px;
   margin-bottom: 60px;
   overflow-x: hidden;
-  cursor: default;
+  pointer-events: none;
 }
 
 @media (min-width: 1600px) {
@@ -388,7 +392,6 @@ a {
   flex-flow: wrap;
   justify-content: space-between;
   overflow-x: hidden;
-  cursor: default;
 }
 
 .card {
@@ -396,18 +399,19 @@ a {
   text-align: center;
   border: none;
   background: none;
-  cursor: default;
 }
 
 .left {
   position: absolute;
   left: 50px;
   top: 50%;
+  cursor: pointer;
 }
 .right {
   position: absolute;
   right: 50px;
   top: 50%;
+  cursor: pointer;
 }
 
 .left:hover {
@@ -431,9 +435,11 @@ a {
   }
   .left {
     left: 30px;
+    cursor: pointer;
   }
   .right {
     right: 30px;
+    cursor: pointer;
   }
 }
 
@@ -443,7 +449,6 @@ a {
   width: 180px;
   height: 60px;
   overflow-x: hidden;
-  cursor: default;
 }
 
 .letrero-01 span {
@@ -459,7 +464,6 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: -50px;
-  position: relative;
   z-index: -1;
   margin-bottom: 30px;
   overflow-x: hidden;
@@ -482,6 +486,7 @@ a {
 
 .seccion-cofre {
   padding: 100px 50px 100px 50px;
+  cursor: default;
 }
 
 .seccion-cofre h2 {

@@ -121,29 +121,60 @@
         <div class="mx-auto d-block letrero-0"></div>
         <div class="container cards-container">
 
+                <!-- jquery -->
+                <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+            <script>
+
+                $( document ).ready(function() {
+
+                var images = [
+                    "/img/personajes-character/01.png",
+                    "/img/personajes-character/02.png",
+                    "/img/personajes-character/03.png",
+                    "/img/personajes-character/04.png",
+                    "/img/personajes-character/05.png"
+                ];
+
+                var imageIndex = 0;
+
+                $("#previous").on("click", function(){          
+                    imageIndex = (imageIndex + images.length -1) % (images.length);    
+                    $("#character").attr('src', images[imageIndex]);
+                });
+
+                $("#next").on("click", function(){
+                    imageIndex = (imageIndex+1) % (images.length);    
+                    $("#character").attr('src', images[imageIndex]);
+                });
+
+                $("#character").attr(images[0]);
+
+                });
+
+            </script>
+
             <div class="row">
                 <div class="card col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center">
-                    <div class="mx-auto d-block letrero-01" id="btn-cursor"><span>CHARACTERS</span></div>
+                    <div class="mx-auto d-block letrero-01"><span>CHARACTERS</span></div>
                     <!-- <img src="img/personajes/grumete.png" alt="" width="80%"loading="lazy"/> -->
-                    <img src="img/personajes/grumete.png" alt="" width="70%" id="character" loading="lazy" />
-                    <img src="img/arrows/left.png" alt="" width="50px" class="left"
-                        onClick={downCharacter}loading="lazy" />
-                    <img src="img/arrows/right.png" alt="" width="50px" class="right"
-                        onClick={addCharacter}loading="lazy" />
+                    <img src="img/personajes/grumete.png" alt="" width="70%" id="character" />
+                    <img id="previous" src="img/arrows/left.png" alt="" width="50px" class="left" />
+                    <img id="next" src="img/arrows/right.png" alt="" width="50px" class="right" />
                 </div>
                 <div class="card col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center">
                     <div class="mx-auto d-block letrero-01"><span>SHIPS</span></div>
                     <!-- <img src={ships} alt="" width="80%" loading="lazy"/> -->
                     <img src="img/personajes/ship.png" alt="" width="70%" id="character" loading="lazy" />
-                    <img src="img/arrows/left.png" alt="" width="50px" class="left" onClick={downShip}loading="lazy" />
-                    <img src="img/arrows/right.png" alt="" width="50px" class="right" onClick={addShip}loading="lazy" />
+                    <img id="arrow-green" src="img/arrows/left.png" alt="" width="50px" class="left" onClick={downShip}loading="lazy" />
+                    <img id="arrow-green" src="img/arrows/right.png" alt="" width="50px" class="right" onClick={addShip}loading="lazy" />
                 </div>
                 <div class="card col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center">
                     <div class="mx-auto d-block letrero-01"><span id="harbour">HARBOUR/ISLAND</span></div>
                     <!-- <img src={port} alt="" width="80%" loading="lazy"/> -->
                     <img src="img/personajes/island.png" alt="" width="70%" id="character" loading="lazy" />
-                    <img src="img/arrows/left.png" alt="" width="50px" class="left" onClick={downPort} loading="lazy" />
-                    <img src="img/arrows/right.png" alt="" width="50px" class="right" onClick={addPort}
+                    <img id="arrow-green" src="img/arrows/left.png" alt="" width="50px" class="left" onClick={downPort} loading="lazy" />
+                    <img id="arrow-green" src="img/arrows/right.png" alt="" width="50px" class="right" onClick={addPort}
                         loading="lazy" />
                 </div>
 
