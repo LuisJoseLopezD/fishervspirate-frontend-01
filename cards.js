@@ -8,7 +8,10 @@
                         "/img/personajes-character/02.png",
                         "/img/personajes-character/03.png",
                         "/img/personajes-character/04.png",
-                        "/img/personajes-character/05.png"
+                        "/img/personajes-character/05.png",
+                        "/img/personajes-character/06.png",
+                        "/img/personajes-character/07.png",
+                        "/img/personajes-character/08.png"
                     ];
     
                     var imageIndex = 0;
@@ -36,7 +39,11 @@
                         "/img/personajes-ship/02.png",
                         "/img/personajes-ship/03.png",
                         "/img/personajes-ship/04.png",
-                        "/img/personajes-ship/05.png"
+                        "/img/personajes-ship/05.png",
+                        "/img/personajes-ship/06.png",
+                        "/img/personajes-ship/07.png",
+                        "/img/personajes-ship/08.png",
+                        "/img/personajes-ship/09.png"
                     ];
     
                     var imageIndex2 = 0;
@@ -60,7 +67,6 @@
                     $( document ).ready(function() {
     
                     var images3 = [
-                        "/img/personajes-harbour-island/01.png",
                         "/img/personajes-harbour-island/02.png",
                         "/img/personajes-harbour-island/03.png",
                         "/img/personajes-harbour-island/04.png",
