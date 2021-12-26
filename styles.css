@@ -411,10 +411,12 @@ a {
 
 .left:hover {
   cursor: pointer;
+  width: 52px;
 }
 
 .right:hover {
   cursor: pointer;
+  width: 52px;
 }
 
 .character {
