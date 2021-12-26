@@ -931,8 +931,11 @@ a {
   }
 
   .segundo-background {
-    background-size: cover;
-    margin-bottom: -100px;
+
+      background-size: cover;
+      padding-bottom: 680px;
+      margin-top: 30px;
+
   }
 
   .segundo-background {
