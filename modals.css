@@ -262,12 +262,32 @@
     margin-top: -12px;
 }
 
+.close {
+    margin-left: 80%;
+}
+
+.close2 {
+    margin-left: 65%;
+}
+
+.close3 {
+    margin-left: 65%;
+}
+
+.close4 {
+    margin-left: 63% !important;
+}
+
+.close5 {
+    margin-left: 61%;
+    margin-top: -10px;
+}
+
 }
 
 @media (max-width:768px){
 
     .close4 {
-        margin-left: 70%;
         margin-top: -12px;
     }
     
