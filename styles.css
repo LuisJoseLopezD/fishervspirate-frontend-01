@@ -7,6 +7,11 @@
   height: 100%;
 }
 
+html {
+  margin:    0 auto;
+  max-width: 1920px;
+}
+
 html,
 body {
   overflow-x: hidden;
@@ -1072,7 +1077,7 @@ a {
   }
 }
 
-@media (min-width: 2560px) {
+/* @media (min-width: 2560px) {
   .background-wood {
     margin-left: 542px;
     margin-right: 427px;
@@ -1104,4 +1109,4 @@ a {
   .fondo-cofre {
     margin-top: 1267px;
   }
-}
+} */
