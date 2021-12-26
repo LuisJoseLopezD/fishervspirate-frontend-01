@@ -1,0 +1,339 @@
+/* roadmap */
+
+.roadmap {
+    overflow: hidden;
+    margin-top: -200px;
+  }
+  
+  .roadmap img {
+    width: 107%;
+    background-size: cover;
+    transform: rotate(-2deg);
+    margin-left: -37px;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .roadmap p {
+    position: absolute;
+    color: #cda165;
+    font-size: 50px;
+    z-index: 1;
+  }
+  
+  .road_1 {
+    margin-top: 210px;
+    margin-left: 450px;
+  }
+  
+  .road_2 {
+    margin-top: 380px;
+    margin-left: 130px;
+  }
+  
+  .road_3 {
+    margin-top: 450px;
+    margin-left: 280px;
+    transform: rotate(-15deg);
+  }
+  
+  .road_4 {
+    margin-top: 490px;
+    margin-left: 590px;
+  }
+  
+  .road_5 {
+    margin-top: 540px;
+    margin-left: 960px;
+  }
+  
+  .road_6 {
+    margin-top: 350px;
+    margin-left: 940px;
+  }
+  
+  .road_7 {
+    margin-top: 180px;
+    margin-left: 830px;
+    font-size: 45px !important;
+    transform: rotate(-7deg);
+  }
+  
+  .roadmap p:hover {
+    cursor: pointer;
+    color: white;
+  }
+  
+  
+  @media (min-width: 1440px) {
+  
+    .road_1 {
+      margin-top: 230px;
+      margin-left: 520px;
+    }
+    
+    .road_2 {
+      margin-top: 420px;
+      margin-left: 180px;
+    }
+    
+    .road_3 {
+      margin-top: 510px;
+      margin-left: 320px;
+      transform: rotate(-15deg);
+    }
+    
+    .road_4 {
+      margin-top: 580px;
+      margin-left: 650px;
+    }
+    
+    .road_5 {
+      margin-top: 620px;
+      margin-left: 1090px;
+    }
+    
+    .road_6 {
+      margin-top: 400px;
+      margin-left: 1080px;
+    }
+    
+    .road_7 {
+      margin-top: 210px;
+      margin-left: 930px;
+      font-size: 45px !important;
+      transform: rotate(-7deg);
+    }
+  
+  }
+  
+  @media (min-width: 1600px) {
+  
+    .road_1 {
+      margin-top: 270px;
+      margin-left: 570px;
+    }
+    
+    .road_2 {
+      margin-top: 480px;
+      margin-left: 190px;
+    }
+    
+    .road_3 {
+      margin-top: 570px;
+      margin-left: 380px;
+      transform: rotate(-15deg);
+    }
+    
+    .road_4 {
+      margin-top: 640px;
+      margin-left: 750px;
+    }
+    
+    .road_5 {
+      margin-top: 670px;
+      margin-left: 1230px;
+    }
+    
+    .road_6 {
+      margin-top: 500px;
+      margin-left: 1230px;
+      font-size: 55px !important;
+    }
+    
+    .road_7 {
+      margin-top: 250px;
+      margin-left: 990px;
+      font-size: 55px !important;
+      transform: rotate(-7deg);
+    }
+  
+  }
+  
+  
+  @media (max-width: 375px) {
+  
+    .roadmap p {
+      position: absolute;
+      color: #cda165;
+      font-size: 15px;
+      z-index: 1;
+      margin-top: none;
+      margin-left: none;
+    }
+    
+    .road_1 {
+      margin-top: 60px;
+      margin-left: 130px;
+    }
+    
+    .road_2 {
+      margin-top: 110px;
+      margin-left: 40px;
+    }
+    
+    .road_3 {
+      margin-top: 135px;
+      margin-left: 70px;
+      transform: rotate(-15deg);
+    }
+    
+    .road_4 {
+      margin-top: 150px;
+      margin-left: 165px;
+    }
+    
+    .road_5 {
+      margin-top: 160px;
+      margin-left: 280px;
+    }
+    
+    .road_6 {
+      margin-top: 110px;
+      margin-left: 280px;
+    }
+    
+    .road_7 {
+      margin-top: 50px;
+      margin-left: 230px;
+      font-size: 15px !important;
+      transform: rotate(-7deg);
+    }
+  
+  } 
+  
+  @media (max-width: 414px) {
+  
+    .roadmap p {
+      position: absolute;
+      color: #cda165;
+      font-size: 15px;
+      z-index: 1;
+      margin-top: none;
+      margin-left: none;
+    }
+    
+    .road_1 {
+      margin-top: 60px;
+      margin-left: 130px;
+    }
+    
+    .road_2 {
+      margin-top: 110px;
+      margin-left: 40px;
+    }
+    
+    .road_3 {
+      margin-top: 155px;
+      margin-left: 80px;
+      transform: rotate(-15deg);
+    }
+    
+    .road_4 {
+      margin-top: 160px;
+      margin-left: 175px;
+    }
+    
+    .road_5 {
+      margin-top: 160px;
+      margin-left: 280px;
+    }
+    
+    .road_6 {
+      margin-top: 110px;
+      margin-left: 280px;
+    }
+    
+    .road_7 {
+      margin-top: 60px;
+      margin-left: 250px;
+      font-size: 15px !important;
+      transform: rotate(-7deg);
+    }
+  
+  }
+  
+  @media only screen and (max-width: 1023px) and (min-width: 768px)  {
+    .roadmap .puntos {
+      margin-top: -750px;
+      margin-left: -120px;
+    }
+  
+    .roadmap p {
+      font-size: 26px;
+    }
+  
+    .road_1 {
+      margin-top: 294px;
+      margin-left: 379px;
+  }
+  
+  .road_3 {
+    margin-top: 430px;
+  }
+  
+  .road_4 {
+    margin-top: 453px;
+    margin-left: 481px;
+  }
+  
+    .road_6 {
+      margin-left: 694px;
+      font-size: 25px !important;
+    }
+  
+    .road_7 {
+      margin-top: 198px;
+      margin-left: 701px;
+      font-size: 25px !important;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 1270px) and (min-width: 1024px)  {
+    .roadmap .puntos {
+      margin-top: -750px;
+      margin-left: -120px;
+    }
+  
+    .roadmap p {
+      font-size: 26px;
+    }
+  
+    .road_1 {
+      margin-top: 294px;
+      margin-left: 379px;
+  }
+  
+  .road_2 {
+    margin-top: 454px;
+    margin-left: 242px;
+  }
+  
+  .road_3 {
+    margin-top: 550px;
+    margin-left: 337px;
+  }
+  
+  .road_4 {
+    margin-top: 562px;
+    margin-left: 594px;
+  }
+  
+  .road_5 {
+    margin-top: 567px;
+    margin-left: 911px;
+  }
+  
+  .road_6 {
+    margin-left: 930px;
+    margin-top: 450px;
+  }
+  
+    .road_7 {
+      margin-top: 302px;
+      margin-left: 860px;
+      font-size: 25px !important;
+    }
+  
+  }
