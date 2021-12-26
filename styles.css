@@ -422,7 +422,7 @@ a {
   cursor: pointer;
 }
 
-#character {
+.character {
   margin-left: 63px;
 }
 
@@ -1251,7 +1251,7 @@ body {
   margin-top: -20px;
 }
 
-#character {
+.character {
   margin-left: 63px;
 }
 
