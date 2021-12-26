@@ -344,7 +344,7 @@
   }
 
 
-  @media (min-width: 1900px)  {
+  @media (min-width: 1920px)  {
 
     .road_2 {
       margin-top: 559px;
@@ -382,4 +382,60 @@ margin-left: 1440px;
   margin-top: 938px;
 }
     
+}
+
+
+@media (min-width: 2560px)  {
+
+  .road_2 {
+    margin-top: 790px;
+    margin-left: 379px;
+}
+
+.road_3 {
+  margin-top: 935px;
+  margin-left: 690px;
+}
+
+.road_4 {
+  margin-top: 1031px;
+  margin-left: 1261px;
+}
+
+.road_5 {
+  margin-top: 1062px;
+  margin-left: 2002px;
+}
+
+.road_6 {
+  margin-top: 756px;
+  margin-left: 1973px;
+}
+
+.road_7 {
+  margin-top: 404px;
+  margin-left: 1858px;
+}
+
+.road_1 {
+  margin-top: 454px;
+  margin-left: 961px;
+}
+
+.fondo-cofre {
+  margin-top: 1243px;
+}
+
+.roadmap img {
+  width: 108%;
+  background-size: cover;
+  transform: rotate(
+-2deg);
+  margin-left: -63px;
+  position: absolute;
+  z-index: 1;
+  margin-top: -37px;
+  /* background-color: red; */
+}
+  
 }

@@ -1066,7 +1066,7 @@ body {
   
   }
 
-  @media (min-width: 1900px)  {
+  @media (min-width: 1920px)  {
 
     .background-wood {
       margin-left: 197px;
@@ -1085,9 +1085,46 @@ body {
 }
 
 .navbar-background {
-  padding-bottom: 44px;
+  padding-bottom: 59px;
 }
 
 
     
+}
+
+
+@media (min-width: 2560px)  {
+
+  .background-wood {
+    margin-left: 542px;
+    margin-right: 427px;
+}
+
+.grupo1 {
+  margin-left: 99px;
+  margin-top: 311px;
+}
+
+.grupo2 {
+  margin-top: 205px;
+}
+
+.navbar-hero {
+  margin-bottom: 403px;
+  padding: 31px 0px 35px;
+}
+
+.navbar-background {
+  padding-bottom: 44px;
+}
+
+.letrero-0 {
+  margin-top: 61px;
+  padding-bottom: 231px;
+}
+
+.fondo-cofre {
+  margin-top: 1267px;
+}
+
 }
