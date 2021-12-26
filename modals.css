@@ -252,3 +252,23 @@
     z-index: 3000;
     position: absolute;
 }
+
+/* RESPONSIVE */
+
+@media (max-width:414px){
+
+.close4 {
+    margin-left: 62%;
+    margin-top: -12px;
+}
+
+}
+
+@media (max-width:768px){
+
+    .close4 {
+        margin-left: 70%;
+        margin-top: -12px;
+    }
+    
+    }
