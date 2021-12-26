@@ -4,10 +4,11 @@
 
 :root {
   touch-action: pan-x pan-y;
-  height: 100% 
+  height: 100%;
 }
 
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 body {
@@ -353,7 +354,7 @@ a {
 /* NFT play to earn */
 
 #arrow-green {
-  cursor:pointer;
+  cursor: pointer;
 }
 
 #harbour {
@@ -474,7 +475,6 @@ a {
   margin-bottom: 30px;
   overflow-x: hidden;
   cursor: default;
-  position: relative;
 }
 
 @media (min-width: 1440px) {
@@ -728,20 +728,20 @@ a {
     width: 204px;
     margin-left: 138px;
     margin-top: 53px;
-}
+  }
 
-.contenedor-imagenes .imagen-02 {
-  width: 250px;
-  margin-left: 50px;
-  margin-top: -82px;
-}
+  .contenedor-imagenes .imagen-02 {
+    width: 250px;
+    margin-left: 50px;
+    margin-top: -82px;
+  }
 
-.contenedor-imagenes .imagen-01 {
-  width: 198px;
-  margin-left: -10px;
-  margin-top: 71px;
-  z-index: 1;
-}
+  .contenedor-imagenes .imagen-01 {
+    width: 198px;
+    margin-left: -10px;
+    margin-top: 71px;
+    z-index: 1;
+  }
 
   .contenedor-imagenes-2 .imagen-003 {
     width: 195px;
@@ -754,219 +754,210 @@ a {
     width: 250px;
     margin-top: 274px;
     margin-left: -35px;
-}
+  }
 
-.textos-pergamino {
-  margin-top: 300px;
-  overflow: hidden;
-}
+  .textos-pergamino {
+    margin-top: 300px;
+    overflow: hidden;
+  }
 
-.textos-pergamino .titles p {
-  font-size: 25px;
-}
+  .textos-pergamino .titles p {
+    font-size: 25px;
+  }
 
-.button3 {
-  font-size: 24px;
-  padding: 12px 21px 12px 21px;
-}
+  .button3 {
+    font-size: 24px;
+    padding: 12px 21px 12px 21px;
+  }
 
-.button4 {
-  font-size: 24px;
-  padding: 12px 10px 12px 10px;
-  margin-top: 3px;
-}
+  .button4 {
+    font-size: 24px;
+    padding: 12px 10px 12px 10px;
+    margin-top: 3px;
+  }
 
-.textos-pergamino .titles {
-  z-index: 1000;
-  margin-left: -3px;
-  position: relative;
-  line-height: 31px;
+  .textos-pergamino .titles {
+    z-index: 1000;
+    margin-left: -3px;
+    position: relative;
+    line-height: 31px;
+  }
 
-}
+  .navbar-background {
+    background-position: left;
+  }
 
-.navbar-background {
-  background-position: left;
-}
+  .contenedor-imagenes-2 .imagen-001 {
+    margin-top: 0px;
+  }
 
-.contenedor-imagenes-2 .imagen-001 {
-  margin-top: 0px;  
-}
+  .header {
+    padding-bottom: 300px;
+    margin-left: 0;
+    padding-left: 175px;
+  }
 
-.header {
-  padding-bottom: 300px;
-  margin-left: 0;
-  padding-left: 175px;
-}
+  .grupo2 {
+    margin-left: -305px !important;
+  }
 
-.grupo2 {
-  margin-left: -305px !important;
-}
+  .navbar-hero {
+    font-size: 25px;
+    padding-bottom: 284px;
+  }
 
-.navbar-hero {
-  font-size: 25px;
-  padding-bottom: 284px;
-}
+  .navbar-hero .background-azul span {
+    margin-top: 20px;
+  }
 
-.navbar-hero .background-azul span {
-  margin-top: 20px;
-}
+  .segundo-background {
+    margin-top: -234px;
+  }
 
-.segundo-background {
-  margin-top: -234px;
-}
+  .letrero-0 {
+    background-image: url(./img/letreros/letrero-NFT-small.png);
+    margin-bottom: -70px;
+  }
 
-.letrero-0 {
-  background-image: url(./img/letreros/letrero-NFT-small.png);
-  margin-bottom: -70px;
-}
+  .character {
+    margin-left: 53px;
+  }
 
-.character {
-  margin-left: 53px;
-}
+  .seccion-cofre h2 {
+    font-size: 40px;
+  }
 
-.seccion-cofre h2 {
-  font-size: 40px;
-}
-
-.seccion-cofre {
+  .seccion-cofre {
     padding: 50px 00px 100px 0px;
-}
+  }
 
-.myButton {
-  font-size: 35px;
-}
+  .myButton {
+    font-size: 35px;
+  }
 
-.seccion-cofre img {
-  width: 300px;
-  margin-top: 50px;
-}
+  .seccion-cofre img {
+    width: 300px;
+    margin-top: 50px;
+  }
 
-.logo-letrero-boton img {
-  width: 400px;
-  margin-left: -20px;
-  margin-top: -30px;
-}
+  .logo-letrero-boton img {
+    width: 400px;
+    margin-left: -20px;
+    margin-top: -30px;
+  }
 
-.myButton2 {
-  font-size: 35px;
-}
+  .myButton2 {
+    font-size: 35px;
+  }
 
-.background-azul {
-  background-image: url(./img/fondos-azules/01.png);
-  background-size: contain;
-  height: 70px;
-  background-repeat: no-repeat;
-  margin-left: 20px;
-}
+  .background-azul {
+    background-image: url(./img/fondos-azules/01.png);
+    background-size: contain;
+    height: 70px;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+  }
 
-.segundo-background {
-  background-size: auto;
-  margin-bottom: 74px;
-}
+  .segundo-background {
+    background-size: auto;
+    margin-bottom: 74px;
+  }
 
-.fondo-cofre {
-  margin-top: 126px;
-}
+  .fondo-cofre {
+    margin-top: 126px;
+  }
 
-.roadmap img {
-  margin-left: -19px;
-}
+  .roadmap img {
+    margin-left: -19px;
+  }
 
-html, body {
-  overflow-x: hidden;
-}
-body {
-  position: relative;
-}
-
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative;
+  }
 }
 
 @media (min-width: 375px) {
   .letrero-0 {
     margin-top: 66px;
+  }
 }
-}
-
 
 /* RESPONSIVE TABLET */
 
-@media only screen and (max-width: 1024px) and (min-width: 768px)  {
-
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
   .button3 {
     font-size: 34px;
     padding: 12px 40px 12px 40px;
+  }
+
+  .navbar-hero {
+    padding: 35px 0px 181px;
+    font-family: geomanist;
+    font-size: 22px;
+    flex-wrap: wrap;
+    color: white;
+    margin-bottom: -130px;
+  }
+
+  .background-azul {
+    height: 60px;
+  }
+
+  .seccion-cofre h2 {
+    font-size: 42px;
+  }
+
+  .myButton {
+    font-size: 35px;
+  }
+
+  .seccion-cofre img {
+    width: 350px;
+  }
+
+  .logo-letrero-boton img {
+    width: 600px;
+    margin-left: -20px;
+    margin-top: -30px;
+  }
+
+  .segundo-background {
+    background-size: cover;
+    margin-bottom: -100px;
+  }
+
+  .segundo-background {
+    background-size: cover;
+    padding-bottom: 678px;
+  }
+
+  .roadmap img {
+    margin-top: -600px;
+  }
+
+  .fondo-cofre {
+    background-image: url(./img/fondo-cofre.png);
+    background-size: cover;
+    width: 100%;
+    margin-top: -256px;
+  }
+
+  .partners {
+    padding: 200px 0 20px 0;
+  }
+
+  .character {
+    margin-left: 38px;
+  }
 }
-
-.navbar-hero {
-  padding: 35px 0px 181px;
-  font-family: geomanist;
-  font-size: 22px;
-  flex-wrap: wrap;
-  color: white;
-  margin-bottom: -130px;
-
-}
-
-.background-azul {
-  height: 60px;
-}
-
-.seccion-cofre h2 {
-  font-size: 42px;
-}
-
-.myButton {
-  font-size: 35px;
-}
-
-.seccion-cofre img {
-  width: 350px;
-}
-
-.logo-letrero-boton img {
-  width: 600px;
-  margin-left: -20px;
-  margin-top: -30px;
-}
-
-.segundo-background {
-  background-size: cover;
-  margin-bottom: -100px;
-}
-
-.segundo-background {
-  background-size: cover;
-  padding-bottom: 678px;
-}
-
-.roadmap img {
-  margin-top: -600px;
-}
-
-.fondo-cofre {
-  background-image: url(./img/fondo-cofre.png);
-  background-size: cover;
-  width: 100%;
-  margin-top: -256px;
-}
-
-.partners {
-  padding: 200px 0 20px 0;
-}
-
-.character {
-
-  margin-left: 38px;
-
-}
-
-}
-
 
 /* RESPONSIVE DESKTOP */
 
-@media (min-width: 1280px)  {
-
+@media (min-width: 1280px) {
   .navbar img {
     margin-top: -20px;
   }
@@ -979,152 +970,138 @@ body {
     font-size: 34px;
     padding: 12px 42px 12px 42px;
     margin-bottom: 15px;
-}
+  }
 
-.header {
-  padding-bottom: 180px;
-}
+  .header {
+    padding-bottom: 180px;
+  }
 
-.navbar-background {
-  background-image: url(./img/fondo-playa.png) center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 20px;
-}
+  .navbar-background {
+    background-image: url(./img/fondo-playa.png) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 20px;
+  }
 
-.fondo-cofre {
-  margin-top: 600px;
-}
+  .fondo-cofre {
+    margin-top: 600px;
+  }
 
   /* modificaciones de Juan */
 
-.grupo2 {
-  margin-top: 120px;
+  .grupo2 {
+    margin-top: 120px;
+  }
+
+  .contenedor-imagenes .imagen-03 {
+    width: 320px;
+    margin-left: 200px;
+  }
+
+  .contenedor-imagenes .imagen-02 {
+    width: 330px;
+  }
+
+  .contenedor-imagenes .imagen-01 {
+    width: 310px;
+  }
+
+  .character {
+    margin-left: 54px;
+  }
+
+  .seccion-cofre h2 {
+    font-size: 55px;
+  }
+
+  .myButton {
+    font-size: 40px;
+  }
+
+  .seccion-cofre img {
+    width: 370px;
+  }
+
+  .logo-letrero-boton img {
+    width: 600px;
+  }
+
+  .myButton2 {
+    font-size: 40px;
+  }
 }
 
-.contenedor-imagenes .imagen-03 {
-  width: 320px;
-  margin-left: 200px;
+@media (min-width: 1440px) {
+  .fondo-cofre {
+    margin-top: 670px;
+  }
+
+  .navbar a {
+    margin-top: -20px;
+  }
+
+  .character {
+    margin-left: 63px;
+  }
 }
 
-.contenedor-imagenes .imagen-02 {
-  width: 330px;
-}
-
-.contenedor-imagenes .imagen-01 {
-  width: 310px;
-}
-
-.character {
-  margin-left: 54px;
-}
-
-.seccion-cofre h2 {
-  font-size: 55px;
-}
-
-.myButton {
-  font-size: 40px;
-}
-
-.seccion-cofre img {
-  width: 370px;
-}
-
-.logo-letrero-boton img {
-  width: 600px;
-}
-
-.myButton2 {
-  font-size: 40px;
-}
-
-}
-
-@media (min-width: 1440px)  {
-
-.fondo-cofre {
-  margin-top: 670px;
-}
-
-.navbar a {
-  margin-top: -20px;
-}
-
-.character {
-  margin-left: 63px;
-}
-
-}
-
-
-@media (min-width: 1600px)  {
-
+@media (min-width: 1600px) {
   .fondo-cofre {
     margin-top: 780px;
   }
-  
-  }
+}
 
-  @media (min-width: 1920px)  {
-
-    .background-wood {
-      margin-left: 197px;
-      margin-right: 191px;
+@media (min-width: 1920px) {
+  .background-wood {
+    margin-left: 197px;
+    margin-right: 191px;
   }
 
   .grupo1 {
     margin-left: 100px;
     margin-top: 100px;
+  }
+
+  .grupo2 {
+    margin-top: 240px;
+    margin-left: 70px;
+  }
+
+  .navbar-background {
+    padding-bottom: 59px;
+  }
 }
 
-.grupo2 {
-  margin-top: 240px;
-  margin-left: 70px;
-
-}
-
-.navbar-background {
-  padding-bottom: 59px;
-}
-
-
-    
-}
-
-
-@media (min-width: 2560px)  {
-
+@media (min-width: 2560px) {
   .background-wood {
     margin-left: 542px;
     margin-right: 427px;
-}
+  }
 
-.grupo1 {
-  margin-left: 99px;
-  margin-top: 311px;
-}
+  .grupo1 {
+    margin-left: 99px;
+    margin-top: 311px;
+  }
 
-.grupo2 {
-  margin-top: 205px;
-}
+  .grupo2 {
+    margin-top: 205px;
+  }
 
-.navbar-hero {
-  margin-bottom: 403px;
-  padding: 31px 0px 35px;
-}
+  .navbar-hero {
+    margin-bottom: 403px;
+    padding: 31px 0px 35px;
+  }
 
-.navbar-background {
-  padding-bottom: 44px;
-}
+  .navbar-background {
+    padding-bottom: 44px;
+  }
 
-.letrero-0 {
-  margin-top: 61px;
-  padding-bottom: 231px;
-}
+  .letrero-0 {
+    margin-top: 61px;
+    padding-bottom: 231px;
+  }
 
-.fondo-cofre {
-  margin-top: 1267px;
-}
-
+  .fondo-cofre {
+    margin-top: 1267px;
+  }
 }
