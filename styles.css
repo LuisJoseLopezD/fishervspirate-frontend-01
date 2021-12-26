@@ -1005,8 +1005,8 @@ body {
   width: 310px;
 }
 
-#character {
-  margin-left: 55px;
+.character {
+  margin-left: 54px;
 }
 
 .seccion-cofre h2 {
