@@ -33,7 +33,6 @@
                     $( document ).ready(function() {
     
                     var images2 = [
-                        "/img/personajes-ship/01.png",
                         "/img/personajes-ship/02.png",
                         "/img/personajes-ship/03.png",
                         "/img/personajes-ship/04.png",
