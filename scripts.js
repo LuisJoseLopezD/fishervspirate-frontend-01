@@ -137,3 +137,28 @@ span5.onclick = function () {
 //         modal5.style.display = "none";
 //     }
 // }
+
+$(document).ready(function(){
+    var keyCodes = [61, 107, 173, 109, 187, 189];
+   
+    $(document).keydown(function(event) {   
+      if (event.ctrlKey==true && (keyCodes.indexOf(event.which) != -1)) {
+        alert('disabling zooming'); 
+        event.preventDefault();
+       }
+    });
+   
+    $(window).bind('mousewheel DOMMouseScroll', function (event) {
+       if (event.ctrlKey == true) {
+         alert('disabling zooming'); 
+         event.preventDefault();
+       }
+     });
+   });
+
+   $("body").css({
+    "-moz-transform":"scale(1)",
+    "-webkit-transform":"scale(1)",
+    "-o-transform":"scale(1)",
+    "-ms-transform":"scale(1)"
+});
