@@ -510,11 +510,11 @@ a {
 }
 
 .myButton {
-  box-shadow: 0px 6px 0px 0px #203393;
-  background: linear-gradient(to bottom, #43c50b 5%, #7bf501 100%);
-  background-color: #43c50b;
+
+  background-image: url(/img/BOTONWHITEPAPER-01.png);
+  background-size: cover;
   border-radius: 16px;
-  border: 1px solid #18ab29;
+ 
   display: inline-block;
   color: #21420d;
   font-size: 55px;
@@ -525,10 +525,7 @@ a {
   z-index: 1000;
   cursor: pointer;
 }
-.myButton:hover {
-  background: linear-gradient(to bottom, #7bf501 5%, #43c50b 100%);
-  background-color: #7bf501;
-}
+
 .myButton:active {
   position: relative;
   top: 1px;
