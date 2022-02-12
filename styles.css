@@ -803,6 +803,7 @@ a {
 
   .grupo2 {
     margin-left: -305px !important;
+    z-index: 10000000000;
   }
 
   .navbar-hero {
@@ -1163,3 +1164,95 @@ a {
     width: 380px;
   }
 }
+
+
+/* responsive tres letreros */
+
+.d-flex.cardsTres {
+  margin-left: -74%;
+  margin-top: -40%;
+}
+
+.d-flex.flex-column.eamonBuy {
+  margin-left: -176%;
+  margin-top: 91%;
+}
+
+@media (max-width: 414px) {
+  .grupo1 {
+    margin-left: -60px;
+    margin-top: 76px;
+}
+}
+
+@media (min-width: 768px) {
+
+  .d-flex.cardsTres {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  
+  .d-flex.flex-column.eamonBuy {
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .d-flex {
+    display: flex!important;
+    margin-left: -19%;
+}
+
+}
+
+@media (min-width: 1024px) {
+
+  .d-flex.flex-column.eamonBuy {
+    margin-left: 38%;
+    margin-top: -19%;
+}
+
+  .d-flex {
+    display: flex!important;
+    margin-left: -10%;
+}
+
+}
+
+
+@media (min-width: 1280px) {
+
+  .grupo1 {
+    margin-left: 4%;
+}
+
+.grupaso {
+  position: absolute;
+  margin-left: 35%;
+}
+
+.d-flex.cardsTres {
+  margin-left: -4%;
+  margin-top: 35%;
+}
+
+.d-flex.flex-column.eamonBuy {
+  margin-left: -5%;
+  margin-top: 11%;
+}
+
+}
+
+@media (min-width: 1440px) {
+
+.d-flex.cardsTres {
+  margin-left: -5%;
+  margin-top: 30%;
+}
+
+.d-flex.flex-column.eamonBuy {
+  margin-left: 5%;
+  margin-top: 11%;
+}
+
+}
+
