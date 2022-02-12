@@ -1245,7 +1245,7 @@ a {
 
 .d-flex.flex-column.eamonBuy {
   margin-left: 42%;
-  margin-top: 11%;
+  margin-top: 20%;
 }
 
 }
@@ -1259,11 +1259,15 @@ a {
 
 .d-flex.flex-column.eamonBuy {
   margin-left: 43%;
-  margin-top: 11%;
+  margin-top: 16%;
 }
 
-.eamonBuy img {
-  width: 370px !important;
+.eamonBuy #imEamon {
+  width: 370px;
+}
+
+.eamonBuy #imgEamonBuy {
+  width: 240px;
 }
 
 /* #cardsPjs {
@@ -1282,7 +1286,7 @@ a {
   
   .d-flex.flex-column.eamonBuy {
     margin-left: 35%;
-    margin-top: 11%;
+    margin-top: 15%;
   }
   
   /* #cardsPjs {
@@ -1291,4 +1295,24 @@ a {
   } */
   
   }
+
+
+  @media (min-width: 1900px) {
+
+    .d-flex.flex-column.eamonBuy {
+      margin-left: 35%;
+      margin-top: 21%;
+  }
+
+
+  .eamonBuy #imEamon {
+    width: 390px !important;
+  }
+  
+  .eamonBuy #imgEamonBuy {
+    width: 260px !important;
+  }
+
+
+    }
 
