@@ -1210,6 +1210,14 @@ a {
     margin-left: -19%;
 }
 
+/* modales */
+
+ul.d-flex.h4.flex-column {
+  margin-left: -5%;
+}
+
+
+
 }
 
 @media (min-width: 1024px) {
@@ -1222,6 +1230,12 @@ a {
   .d-flex {
     display: flex!important;
     margin-left: -10%;
+}
+
+/* modales */
+
+ul.d-flex.h4.flex-column {
+  margin-left: -3%;
 }
 
 }
