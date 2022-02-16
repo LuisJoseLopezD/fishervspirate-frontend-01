@@ -648,7 +648,7 @@ a {
 
 .founders-box {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   text-align: center;
   flex-wrap: wrap;
 }
